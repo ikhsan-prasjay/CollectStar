@@ -219,7 +219,7 @@
                 console.log('Dude sprite loaded - Actual size:', assets.dude.width, 'x', assets.dude.height);
                 
                 // Deteksi otomatis ukuran frame berdasarkan sprite sheet
-                const detectedFrameWidth = assets.dude.width / 9; // Asumsi 9 frame horizontal
+                const detectedFrameWidth = assets.dude.width / 8.8; // Asumsi 9 frame horizontal
                 const detectedFrameHeight = assets.dude.height; // Asumsi 1 baris
                 
                 console.log('Auto-detected frame size:', detectedFrameWidth, 'x', detectedFrameHeight);
@@ -439,7 +439,7 @@
                 const spriteHeight = assets.dude.height;
                 
                 // Asumsi format sprite sheet standar (9 frame horizontal untuk dude.png)
-                const totalFrames = 9;
+                const totalFrames = 8.8;
                 const frameWidth = Math.floor(spriteWidth / totalFrames);
                 const frameHeight = spriteHeight;
                 
